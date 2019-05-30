@@ -1,0 +1,4 @@
+# Excluded Directories
+.vs/
+[Bb]in/
+[Oo]bj/
