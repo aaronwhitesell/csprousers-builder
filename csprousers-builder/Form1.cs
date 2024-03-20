@@ -23,7 +23,7 @@ namespace csprousers_builder
             var startInfo = new System.Diagnostics.ProcessStartInfo
             {
                 FileName = "cmd.exe",
-                WorkingDirectory = @"D:\dev\work\bitbucket\csprousers",
+                WorkingDirectory = @"D:\dev\work\github\csprousers",
                 Arguments = "/k jekyll serve",
                 WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal,
                 UseShellExecute = false
@@ -44,7 +44,7 @@ namespace csprousers_builder
             var startInfo = new System.Diagnostics.ProcessStartInfo
             {
                 FileName = "cmd.exe",
-                WorkingDirectory = @"D:\dev\work\bitbucket\csprousers",
+                WorkingDirectory = @"D:\dev\work\github\csprousers",
                 Arguments = "/k jekyll clean",
                 WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal,
                 UseShellExecute = false
@@ -60,7 +60,7 @@ namespace csprousers_builder
             var startInfo = new System.Diagnostics.ProcessStartInfo
             {
                 FileName = "cmd.exe",
-                WorkingDirectory = @"D:\dev\work\bitbucket\csprousers",
+                WorkingDirectory = @"D:\dev\work\github\csprousers",
                 Arguments = "/k jekyll clean&jekyll build",
                 WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal,
                 UseShellExecute = false
